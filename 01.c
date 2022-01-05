@@ -1,4 +1,4 @@
-/*. Write a C program that reads the principal, rate of interest and number of years and find
+/*1. Write a C program that reads the principal, rate of interest and number of years and find
 the simple interest and amount.*/
 include <stdio.h>
 int main(){
