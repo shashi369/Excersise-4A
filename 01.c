@@ -3,12 +3,8 @@ the simple interest and amount.*/
 include <stdio.h>
 int main(){
     float p, t, r, si = 0.0;
-    printf("Enter principal: ");
-    scanf("%f", &p);
-    printf("Enter rate: ");
-    scanf("%f", &r);
-    printf("Enter time: ");
-    scanf("%f", &t);
+    printf("Enter principal , rate and time : ");
+    scanf("%f %f %f", &p,&t,&r);
     si = (p*t*r)/100.0;
     printf("Simple Interest = %f", si);
 }
